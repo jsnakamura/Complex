@@ -47,14 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="reduction\reduc.cs" />
-    <Compile Include="ui\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ui\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ui\mainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\mainMenu.Designer.cs">
+      <DependentUpon>mainMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="verification\verify.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

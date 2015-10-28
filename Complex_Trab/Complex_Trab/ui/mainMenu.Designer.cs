@@ -1,6 +1,6 @@
-﻿namespace Complex_Trab
+﻿namespace Complex_Trab.ui
 {
-    partial class Form1
+    partial class mainMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -30,10 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.Text = "mainMenu";
         }
 
         #endregion
     }
 }
-
